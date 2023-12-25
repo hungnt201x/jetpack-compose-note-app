@@ -21,7 +21,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.note.common.NoteAppTheme
+import com.example.note.common.NoteTheme
 
 @Composable
 fun HomePage(
@@ -68,7 +68,7 @@ private fun Branding(modifier: Modifier = Modifier) {
 @Preview(name = "Welcome dark theme", uiMode = Configuration.UI_MODE_NIGHT_NO)
 @Composable
 fun WelcomeScreenPreview() {
-    NoteAppTheme() {
+    NoteTheme() {
         HomePage(
         )
     }
